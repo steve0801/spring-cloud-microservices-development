@@ -37,7 +37,7 @@ public class WeatherDataServiceImpl implements WeatherDataService {
 	
 	private final String WEATHER_API = "http://wthrcdn.etouch.cn/weather_mini";
 
-	private final Long TIME_OUT = 1800L; // 缓存超时时间
+	private final Long TIME_OUT = 1L; // 缓存超时时间
 	
 	@Override
 	public WeatherResponse getDataByCityId(String cityId) {

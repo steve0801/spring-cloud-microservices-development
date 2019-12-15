@@ -61,7 +61,7 @@ public class UserController {
 
 	/**
 	 * 修改用户
-	 * 
+	 * TODO：url中使用id，具体的User类通过Json传输
 	 * @param id
 	 * @param user
 	 */

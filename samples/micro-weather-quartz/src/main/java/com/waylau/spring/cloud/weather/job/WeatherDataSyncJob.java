@@ -32,6 +32,7 @@ public class WeatherDataSyncJob extends QuartzJobBean {
 	/* (non-Javadoc)
 	 * @see org.springframework.scheduling.quartz.QuartzJobBean#executeInternal(org.quartz.JobExecutionContext)
 	 */
+	// TODO：没有返回值，是否有其他方式？
 	@Override
 	protected void executeInternal(JobExecutionContext context) throws JobExecutionException {
 		logger.info("Start 天气数据同步任务");

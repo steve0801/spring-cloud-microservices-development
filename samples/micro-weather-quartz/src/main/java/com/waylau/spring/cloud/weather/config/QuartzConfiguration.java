@@ -19,7 +19,7 @@ import com.waylau.spring.cloud.weather.job.WeatherDataSyncJob;
 @Configuration
 public class QuartzConfiguration {
 	
-	private final int TIME = 1800; // 更新频率
+	private final int TIME = 2; // 更新频率
 	
 	@Bean
 	public JobDetail weatherDataSyncJobJobDetail() {
